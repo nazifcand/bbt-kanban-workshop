@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Açık",
+    "tasks": [
+      {
+        "id": 4378578,
+        "summary": "Siparişler sayfasındaki \"Yeni Sipariş\" butonuna hover efekt eklenmeli",
+        "createdAt": "05.04.2023",
+        "tags": [
+          { "color": "info", "text": "Frontend" },
+          { "color": "warning", "text": "Öncelik: Orta" }
+        ],
+        "user": {
+          "image": "https://i.pravatar.cc/150?img=3",
+          "name": "Nazif Can DURGUT"
+        }
+      },
+      {
+        "id": 847845,
+        "summary": "Sipariş durumu değiştiğinde kullanıcıya bildirim gönderilmeli",
+        "createdAt": "20.04.2023",
+        "tags": [
+          { "color": "primary", "text": "Backend" },
+          { "color": "danger", "text": "Öncelik: Yüksek" }
+        ],
+        "user": {
+          "image": "https://i.pravatar.cc/150?img=10",
+          "name": "Elif ARDA AKIN"
+        }
+      },
+      {
+        "id": 84834452,
+        "summary": "Siparişlerin stoğa etkisi kontrol edilmeli. Stok şuan ikişer ikişer azalıyor.",
+        "createdAt": "20.04.2023",
+        "tags": [
+          { "color": "primary", "text": "Backend" },
+          { "color": "danger", "text": "Öncelik: Yüksek" },
+          { "color": "danger", "text": "BUG FIX" }
+        ],
+        "user": {
+          "image": "https://i.pravatar.cc/150?img=10",
+          "name": "Elif ARDA AKIN"
+        }
+      },
+      {
+        "id": 3488487,
+        "summary": "Kullanıcıya stokta azalan ürünler hakkında bilgilendirme sağlayacak popup tasarlanacak",
+        "createdAt": "18.04.2023",
+        "tags": [
+          { "color": "info", "text": "Frontend" },
+          { "color": "info", "text": "Öncelik: Düşük" }
+        ],
+        "user": {
+          "image": null,
+          "name": "Nazif Can DURGUT"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Beklemede",
+    "tasks": [
+      {
+        "id": 4985899,
+        "summary": "Yeni Özellik: \"Yorumlar\" özelliğinin sisteme eklenmesi",
+        "createdAt": "05.05.2023",
+        "tags": [
+          { "color": "warning", "text": "PM" },
+          { "color": "warning", "text": "Öncelik: Orta" },
+          { "color": "info", "text": "Planlama" }
+        ],
+        "user": {
+          "image": "https://i.pravatar.cc/150?img=8",
+          "name": "Mustafa ŞAHİN"
+        }
+      },
+      {
+        "id": 34877854,
+        "summary": "Kullanıcıların içeriklerini sosyal medya platformlarında paylaşabilmelerini sağlayacak bir entegrasyon geliştirilmeli",
+        "createdAt": "17.05.2023",
+        "tags": [
+          { "color": "warning", "text": "PM" },
+          { "color": "danger", "text": "Öncelik: Yüksek" },
+          { "color": "info", "text": "Planlama" }
+        ],
+        "user": {
+          "image": "https://i.pravatar.cc/150?img=8",
+          "name": "Mustafa ŞAHİN"
+        }
+      },
+      {
+        "id": 1099894,
+        "summary": "Yeni ödeme yöntemi olarak \"Banka Havalesi\" seçeneği için gerekli aksiyonların alınması",
+        "createdAt": "29.05.2023",
+        "tags": [
+          { "color": "primary", "text": "Backend" },
+          { "color": "danger", "text": "Öncelik: Yüksek" },
+          { "color": "success", "text": "Özellik" }
+        ],
+        "user": {
+          "image": "https://i.pravatar.cc/150?img=10",
+          "name": "Elif ARDA AKIN"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Devam Ediyor",
+    "tasks": [
+      {
+        "id": 8945893,
+        "summary": "Yeni ödeme yöntemi olarak \"Banka Havalesi\" seçeneğinin eklenip yanına \"Çok Yakında\" ibaresinin eklenmesi",
+        "createdAt": "28.05.2023",
+        "tags": [
+          { "color": "info", "text": "Frontend" },
+          { "color": "warning", "text": "Öncelik: Orta" },
+          { "color": "success", "text": "Özellik" }
+        ],
+        "user": {
+          "image": "https://i.pravatar.cc/150?img=3",
+          "name": "Nazif Can DURGUT"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Tamamlandı",
+    "tasks": []
+  }
+]

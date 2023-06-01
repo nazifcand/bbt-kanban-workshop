@@ -1,0 +1,17 @@
+.tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  color: #fff;
+  font-size: .8rem;
+  border-radius: 5px;
+  padding: .40rem .75rem;
+
+  @each $color in $colors {
+    &--#{$color} {
+      background-color: rgba(var(--#{$color}), .25);
+      color: rgb(var(--#{$color}));
+    }
+  }
+}

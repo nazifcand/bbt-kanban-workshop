@@ -1,0 +1,13 @@
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap';
+
+$font: 'Poppins';
+
+:root {
+  --primary: 124, 105, 239;
+  --success: 66, 186, 150;
+  --danger: 223, 71, 89;
+  --warning: 255, 193, 7;
+  --info: 70, 127, 208
+}
+
+$colors: 'primary', 'success', 'danger', 'warning', 'info';

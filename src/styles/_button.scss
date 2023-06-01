@@ -1,0 +1,29 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  color: #fff;
+  font-size: .9rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: .5rem 1.25rem;
+  transition: .5s all ease-in;
+  font-family: $font;
+
+  &:hover {
+    opacity: .75;
+  }
+
+  &--large {
+    font-size: 1.5rem;
+  }
+
+  @each $color in $colors {
+    &--#{$color} {
+      background-color: rgba(var(--#{$color}), 1);
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.badge {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  color: #fff;
+  font-size: .9rem;
+  border-radius: 5px;
+
+  @each $color in $colors {
+    &--#{$color} {
+      background-color: rgba(var(--#{$color}), .25);
+      color: rgb(var(--#{$color}));
+    }
+  }
+
+  &--dark {
+    @each $color in $colors {
+      &.badge--#{$color} {
+        background-color: rgba(var(--#{$color}), 1);
+        color: #fff;
+      }
+    }
+  }
+}
+
+// .badge--primary {
+//   background-color: rgba(124, 105, 239, .25);
+//   color: rgb(124, 105, 239)
+// }
+
+//.badge--success.badge--dark {
+//   background-color: rgba(66, 186, 150, .25);
+//   color: rgb(66, 186, 150)
+// }
