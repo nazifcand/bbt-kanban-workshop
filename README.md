@@ -17,10 +17,15 @@ Component dediğimiz şey tekrar kullanılabilen parçalardır. En küçük par�
 # Component Kullanmanın Avantajları
 
 • Bir kere yazıldıktan sonra istenilen her yerde kullanabilme imkanı sunar.
+
 • Component yapısı sayesinde kod tekrarlarından kaçınılır.
+
 • Componentler geliştirilen projenin yapısına göre mantıksal parçalara bölünebilir.
+
 • Veriler **Props** olarak gönderilir.
+
 • Tarayıcılar arasında ki farkları da etkisiz kılar.
+
 • Test etmesi daha kolaydır.
 
 _Büyük parçalara göre ufak parçaların test edilmesi daha kolaydır._
@@ -28,7 +33,9 @@ _Büyük parçalara göre ufak parçaların test edilmesi daha kolaydır._
 # Component Kullanmanın Dezavantajları
 
 • Componentler belli mantık çerçevesinde parçalanmazlarsa geliştirme aşamasında zorluk yaratır.
+
 • Component isimlendirmeleri aynı şekilde belli bir mantık çevresinde olmazsa kafa karışıklığına neden olabilirler.
+
 • Sınırlı sayıda konfigürasyon.
 
 # Component’leri Doğru Ayırmak/Parçalamak
